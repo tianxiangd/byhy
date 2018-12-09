@@ -35,6 +35,7 @@ public class LoginServiceImpl implements LoginService {
         //获取用户名和密码
         String username = user.getUsername();
         String password = MD5Utils.generatePasswordMD5( user.getPassword());
+        //String password = user.getPassword();
         Subject currentUser = SecurityUtils.getSubject();
         UsernamePasswordToken token = new UsernamePasswordToken(username, password);
         try {

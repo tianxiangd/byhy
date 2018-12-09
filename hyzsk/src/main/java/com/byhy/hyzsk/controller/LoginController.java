@@ -30,9 +30,11 @@ public class LoginController {
     @RequestMapping(value="/login")
     public String login(String role){
         if("user".equals(role)){
+
             return "user_login";
         }
         return "admin_login";
+
     }
 
     /**
