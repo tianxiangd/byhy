@@ -1,0 +1,28 @@
+/***正文开始***/
+/***中间搜索框部分***/
+#section{margin: 180px auto 105px;}
+.wrap{height: 240px; width: 100%;}
+.sec-wrap{height: 240px; background: url(../images/yu-ban-bg-2.png) no-repeat center bottom;}
+.sec-wrap-btm{height: 14px; background: url(../images/ban-bg-btm.png) no-repeat bottom center;}
+.sec-con{position: relative; top: -130px; height: 386px; width: 982px; min-height: 135px; background: #ffffff url(../images/search-1.png) no-repeat left top; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border: 1px solid #dcdcdc; margin: 0 auto;}
+.sec-con h1{text-align: center; padding: 70px 0 60px;}
+.ser-about,
+.ser-con-box,
+.ser-con-list{width: 852px; margin: 0 auto;}
+.ser-con-list{margin-bottom: 10px;}
+.ser-con-list a{font-size: 16px; color: #333333; margin-right: 35px; height: 28px; line-height: 28px;}
+.ser-con-list a.active{color: #ffffff; font-weight: bold; padding: 0 12px; background: #017cc3; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;}
+.ser-con-box{height: 58px; *height: 56px; background: #ffffff; border: 1px solid #970c7f; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 0; position: relative; overflow: hidden;}
+.ser-con-box #ser-id{width: 728px; *width: 708px; padding: 0 10px; height: 100%; font-size: 14px;}
+.ser-con-box .ser-btn{font-size: 20px; color: #ffffff; font-weight: bold; width: 122px; height: 58px; background: #970c7f; line-height: 58px; position: absolute; top: -1px; right: -1px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; text-align: center; letter-spacing: 4px;}
+.ser-con-box .ser-btn i{margin: 0 5px 3px 0;}
+.ser-con-box .ser-btn:hover{background: #af0e93;}
+.ser-about{font-size: 16px; margin-top: 10px;}
+.ser-about span{color: #333333;}
+/**三个入口**/
+.entrance{width: 1180px; margin: 0 auto 85px;}
+.ent-con{text-align: center;}
+.ent-con a{width: 100px; margin: 0 110px; transition: all 0.3s;}
+.ent-con a:hover{transform: translateY(-10px);}
+.ent-con a:hover span{color: #a94797;}
+.ent-con span{display: block; font-size: 18px; margin-top: 16px;}

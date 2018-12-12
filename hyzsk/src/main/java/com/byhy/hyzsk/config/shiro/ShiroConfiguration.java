@@ -40,6 +40,9 @@ public class ShiroConfiguration {
         //anon:所有url都都可以匿名访问
         filterChainDefinitionMap.put("/", "anon");
         filterChainDefinitionMap.put("/css/**", "anon");
+        filterChainDefinitionMap.put("/coursedb/**", "anon");
+        filterChainDefinitionMap.put("/languagedb/**", "anon");
+        filterChainDefinitionMap.put("/documentdb/**", "anon");
         filterChainDefinitionMap.put("/js/**", "anon");
         filterChainDefinitionMap.put("/fonts/**", "anon");
         filterChainDefinitionMap.put("/img/**", "anon");
@@ -51,6 +54,9 @@ public class ShiroConfiguration {
         filterChainDefinitionMap.put("/user/registered", "anon");
         filterChainDefinitionMap.put("/logout", "anon");
         filterChainDefinitionMap.put("/error", "anon");
+        filterChainDefinitionMap.put("/courseIndex", "anon");//首页允许匿名访问
+        filterChainDefinitionMap.put("/documentIndex", "anon");
+        filterChainDefinitionMap.put("/languageIndex", "anon");
         //authc:所有url都必须认证通过才可以访问
         filterChainDefinitionMap.put("/**", "authc");
         //如果不设置默认会自动寻找Web工程根目录下的"/login.jsp"页面

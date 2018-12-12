@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>首页</title>
+    <title>教学资源库</title>
      <#include "../../common/common.ftl" />
     <link rel="stylesheet" href="/coursedb/common/css/base.css"/>
     <link rel="stylesheet" href="/coursedb/common/css/reset.css"/>
@@ -279,10 +279,10 @@
 </div>
 <div id="footer">
     <div class="foot-box">
-        <p>北京语言大学出版社有限公司</p>
+        <p>XXXXXXXX出版社有限公司</p>
         <p>通信地址: 北京市海淀区学院路15号　邮编: 100083</p>
         <p>办公室电话：+86-10-82303645 办公室传真: +86-10-82303963，网上订单客服电话：+86-10-82303908 网上订单客服信箱: service@blcup.com</p>
-        <p>版权所有: 北京 语言大学出版社有限公司，All Rights Reserved Copyright 2017</p>
+        <p>版权所有: 北京 XXXXXXXX出版社有限公司，All Rights Reserved Copyright 2017</p>
         <p>京ICP备16012676号-1 互联网出版许可证: 新出网证（京）字163号</p>
         <p>本网站推荐使用IE8 以上版本浏览器</p>
         <div class="er-code">

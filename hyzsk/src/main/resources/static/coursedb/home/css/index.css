@@ -1,0 +1,64 @@
+/***正文开始***/
+.journal, .common-res, .teach-material, .news{margin-bottom: 50px;}
+/***相关产品***/
+.pro-list{width: 1193px; margin-top: 30px;}
+.pro-list li{float: left; width: 136px; height: 136px; background: #ffffff; text-align: center; *width: 134px; border: 1px solid #dcdcdc; margin-right: 13px;}
+.pro-list li a{width: 100%; *width: 104px; height: 100%; padding: 32px 15px 0; font-size: 14px;}
+.pro-list li a span{display: block; margin-top: 15px; height: 42px; overflow: hidden;}
+.pro-list li:hover{border-color: #01bbbb;}
+/**main**/
+/*通用资源库*/
+.common-con li{float: left; width: 33%; *width: 22%; padding: 0 60px; border-left: 1px solid #dcdcdc;}
+.common-con li a{width: 100%;}
+.common-con li a h4,
+.common-con li a p{margin-left: 90px;}
+.common-con li a h4{font-size: 18px; line-height: 28px;}
+.common-con li a p{font-size: 14px; color: #999999;}
+.common-con li a img{transition: all 0.3s;}
+.common-con li a:hover img{transform: translateX(5px);}
+.common-con li:first-child{border-left: 0;}
+/*教材专区*/
+.mater-con{position: relative;}
+.mater-con > a{width: 30px; height: 58px; background: url("../images/arr-left.png") no-repeat left top; position: absolute; top: 70px;}
+.mater-con > a.arr-left{left: 0;}
+.mater-con > a.arr-left:hover{background: url(../images/arr-left-fl.png) no-repeat;}
+.mater-con > a.arr-right{right: 0; background-image: url(../images/arr-tight.png);}
+.mater-con > a.arr-right:hover{background: url(../images/arr-right-fr.png) no-repeat;}
+.mater-list{width: 1104px; height: 240px; margin: 0 auto; position: relative; overflow: hidden;}
+.mater-list ul{position: absolute; top: 0; left: 0;}
+.mater-list ul li{float: left; width: 144px; margin: 10px 20px; text-align: center;}
+.mater-list ul li .img{width: 144px; height: 198px; *width: 142px; *height: 196px; border: 1px solid #dcdcdc; overflow: hidden; vertical-align: top; transition: all 0.3s;}
+.mater-list ul li .img:hover{transform: translateY(-8px);}
+.mater-list ul li span{margin-top: 12px; font-size: 14px; color: #333333;}
+.mater-list ul li span:hover{color: #eb5261;}
+/*最新资源*/
+.news-res{float: left; width: 360px;}
+.list-style li{line-height: 34px; font-size: 14px;}
+.list-style li a{color: #333333; width: 210px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; vertical-align: top;}
+.list-style li a:hover{color: #01a2a6;}
+.list-style li span{float: right; color: #999999; *margin-top: -34px;}
+.list-style li strong{display: inline-block; width: 20px; height: 20px; background: #01a2a6; text-align: center; line-height: 22px; font-size: 16px; color: #ffffff; font-family: Arial; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; margin-right: 10px;}
+.down-ranking{margin-left: 415px;}
+.down-first{float: left; width: 360px; position: relative;}
+.down-first > a{float: left; width: 108px; height: 147px; *width: 106px; *height: 145px; border: 1px solid #dcdcdc; overflow: hidden; margin-left: 20px;}
+.down-first > a:hover{border-color: #01a2a6;}
+.down-first strong{position: absolute; top: 0; left: 0; width: 34px; height: 34px; background: #de0d21; text-align: center; line-height: 34px; font-size: 26px; color: #ffffff; font-family: Arial; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;}
+.down-detail{margin-left: 145px;}
+.down-detail h3 a{font-size: 16px; color: #333333; font-weight: bold; line-height: 26px;}
+.down-detail h3 a:hover{color: #01a2a2;}
+.down-detail p{line-height: 26px;}
+.down-detail p span{color: #666666;}
+.down-det-btn{margin-top: 15px;}
+.down-det-btn a{height: 25px; line-height: 23px; padding: 0 10px; background: #f9f9f9; border: 1px solid #dcdcdc; margin-right: 15px;}
+.down-det-btn a i{width: 16px; height: 12px; background: url(../images/icons/icon_list.png) no-repeat -139px 0; margin: 0 5px 2px 0;}
+.down-det-btn a.down-btn i{background-position-x: -163px;}
+.down-det-btn a:hover{background: #f4f4f4;}
+.down-other{margin-left: 400px;}
+.down-other .indicator{text-align: right;}
+.down-other .indicator span{width: 4px; height: 4px; background: #c3c3c3; text-align: left; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; margin: 0 3px; vertical-align: middle;}
+.down-other .indicator span.active{background: #666666;}
+.down-other .indicator a{width: 8px; height: 15px; background: url(../images/icons/icon_list.png) no-repeat -184px 0; vertical-align: middle;}
+.down-other .indicator a.arr-sm-left{margin-right: 5px;}
+.down-other .indicator a.arr-sm-right{background-position-x: -195px; margin-left: 5px;}
+.down-other .indicator a:hover,
+.down-other .indicator a.cur{background-position-y: -18px;}

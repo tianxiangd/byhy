@@ -1,10 +1,10 @@
-package com.byhy.hyzsk.controller;
+package com.byhy.hyzsk.CourseController;
 
 import org.mapstruct.Mapping;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller
+@Controller("CouHomeController")
 public class HomeController {
     @RequestMapping("/courseIndex")
     public String Index(){
