@@ -50,6 +50,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
+        </dependency>
         <!-- springboot mybatis依赖 -->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
@@ -116,6 +120,7 @@
             <artifactId>thumbnailator</artifactId>
             <version>0.4.8</version>
         </dependency>
+
         <!-- properties配置依赖 -->
         <dependency>
             <groupId> org.springframework.boot </groupId>
